@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Boulaanan · CV</title>
+    <!-- Font Awesome for icons (optional but adds polish) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Separate CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- subtle animated background gradient -->
+    <div class="gradient-bg"></div>
+
+    <main class="cv-container">
+        <!-- HEADER: name, age, nationality, languages -->
+        <header class="cv-header glass">
+            <div class="header-top">
+                <h1>Anas Boulaanan</h1>
+                <div class="badge-row">
+                    <span class="badge"><i class="fas fa-cake-candles"></i> 14 years</span>
+                    <span class="badge"><i class="fas fa-flag"></i> Moroccan</span>
+                </div>
+            </div>
+
+            <!-- languages with small progress style / skill badges -->
+            <div class="languages">
+                <div class="lang-item">
+                    <i class="fas fa-language"></i>
+                    <span>English</span>
+                    <div class="level-bar"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="lang-item">
+                    <i class="fas fa-language"></i>
+                    <span>French</span>
+                    <div class="level-bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="lang-item">
+                    <i class="fas fa-code"></i>
+                    <span>Programming</span>
+                    <div class="level-bar"><span style="width: 80%;"></span></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT: two columns -->
+        <div class="cv-grid">
+            <!-- LEFT COLUMN: skills & tech -->
+            <section class="skills glass">
+                <h2><i class="fas fa-terminal"></i> Tech & Skills</h2>
+                <ul class="skill-list">
+                    <li><i class="fab fa-html5"></i> HTML5</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fas fa-flask"></i> Flask (Python)</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fas fa-database"></i> MySQL</li>
+                </ul>
+
+                <!-- extra details: expertise bar for programming (optional) -->
+                <div class="extra-skill">
+                    <p><i class="fas fa-check-circle"></i> Proficient in programming (HTML, CSS, Flask, Python, MySQL)</p>
+                </div>
+            </section>
+
+            <!-- RIGHT COLUMN: about / summary & contact / languages detail -->
+            <section class="about glass">
+                <h2><i class="fas fa-user-astronaut"></i> About Me</h2>
+                <p class="about-text">
+                    I'm <strong>Anas Boulaanan</strong>, a 14-year-old Moroccan developer. 
+                    I speak <strong>English</strong> and <strong>French</strong>, and I have a strong 
+                    passion for programming. I work with <strong>HTML, CSS, Flask, Python, and MySQL</strong> 
+                    to build clean and functional web applications.
+                </p>
+
+                <!-- small chips for languages (reinforce) -->
+                <div class="chip-container">
+                    <span class="chip"><i class="fas fa-comment-dots"></i> English</span>
+                    <span class="chip"><i class="fas fa-comment-dots"></i> French</span>
+                    <span class="chip"><i class="fas fa-laptop-code"></i> Programming</span>
+                </div>
+            </section>
+        </div>
+
+        <!-- PROJECT / PORTFOLIO SECTION (simple, optional) -->
+        <section class="projects glass">
+            <h2><i class="fas fa-folder-open"></i> What I Do</h2>
+            <div class="project-cards">
+                <div class="card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive interfaces with HTML, CSS, JavaScript</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend (Flask)</h3>
+                    <p>Python-powered APIs and server-side logic</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-table"></i>
+                    <h3>MySQL</h3>
+                    <p>Database design and integration</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER: contact / signature -->
+        <footer class="cv-footer glass">
+            <p><i class="fas fa-crown"></i> Anas Boulaanan · 14 y.o. Moroccan developer</p>
+            <p class="footer-note">Built with <i class="fas fa-heart" style="color:#a855f7;"></i> using HTML, CSS, JS</p>
+        </footer>
+    </main>
+
+    <!-- Separate JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
